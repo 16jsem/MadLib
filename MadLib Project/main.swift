@@ -7,5 +7,5 @@
 //
 
 import Foundation
-print("CoupevilleLibs")
+print("Coupeville Lives")
 print("Hello, World!")
