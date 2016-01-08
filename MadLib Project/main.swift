@@ -18,20 +18,6 @@ print("Madlib Menu")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // madlib #1
 
 
