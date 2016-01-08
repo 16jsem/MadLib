@@ -24,7 +24,6 @@ print("Madlib Menu")
 
 
 
-test
 
 
 
@@ -44,6 +43,22 @@ func input() -> String {
     
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
 }
+
+
+print("My company")
+print("Name of company")
+var A = input()
+print("Is developing")
+print("A defined offering")
+var B = input()
+print("to help")
+print("A defined audience")
+var C = input()
+print("Solve a problem")
+var D = input()
+print("With")
+print("Secret suace")
+var E = input()
 
 
 
