@@ -259,6 +259,14 @@ var madlib9 = input ()
 
 
 func Madlib5(){
+print("Plural Noun")
+var pluralNoun = input()
+print("Adjetive")
+var adjetive = input()
+print("Plural Noun")
+var pluralNoun1 = ("Plural NOun")
+print("Noun")
+var noun = input()
     
 }
 
