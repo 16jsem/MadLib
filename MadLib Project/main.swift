@@ -11,10 +11,6 @@ import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
 
-print("Madlib Menu")
-
-
-
 
 
 
@@ -48,4 +44,78 @@ var E = input()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Madlib Menu")
+
+func menuChoice(choice: String)
+print("Madlib Menu")
+print("1 - Madlib1")
+print("2 - Madlib2")
+print("3 - Exit")
+print("Input Number to Select Madlib or Command")
+input()()
 
