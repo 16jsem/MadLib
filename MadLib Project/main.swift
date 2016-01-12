@@ -10,10 +10,10 @@
 import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
-var playAgain = "yes"
+var playAgain = 1
 func exit(){
     print("Thanks for Playing!")
-    playAgain = "no"
+    playAgain = 2
 }
 func input() -> String {
     
@@ -258,6 +258,9 @@ var madlib9 = input ()
 
 
 
+func Madlib5(){
+    
+}
 
 
 
@@ -265,9 +268,14 @@ var madlib9 = input ()
 
 
 
-
-
-
+func menuOptions(){
+print("Menu")
+print("Please type Command or Madlib Name")
+print("Madlib1")
+print("Madlib2")
+print("exit")
+}
+input()()
 
 
 
