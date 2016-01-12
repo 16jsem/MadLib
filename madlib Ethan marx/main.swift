@@ -93,7 +93,7 @@ print("same male celeb")
 print("past tense verd")
 var madlib9 = input ()
 
- 
+
 
 
 
