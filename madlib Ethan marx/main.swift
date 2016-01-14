@@ -13,7 +13,7 @@ print("Hello, World!")
 
 
 
-
+//Ethan M.
 
 
 func input() -> String {
@@ -42,12 +42,11 @@ var E = input()
 
 
 
-
-// print
-
+print("My company \(A) name of company \(A) Is developing \(B) A defined offering \(B) to help \(C) A defined audience \(C) solve a problem \(D) with \(E) Secret suace \(E).")
 
 
 
+//Ethan M.
 
 
 func input1() -> String {
@@ -57,10 +56,6 @@ func input1() -> String {
     
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
 }
-
-
-
-
 
 
 
@@ -95,12 +90,7 @@ var madlib9 = input ()
 
 
 
-
-
-
-
-
-print("Female celeb\(madlib5) 's first husband \(madlib4) adjective \(madlib3) that is \(madlib3) male celeb \(madlib2) was spotted \(madlib1) canoodling with \(madlib1) female celeb \(madlib0) who he met filming \(madlib0) name of movie \(madlib6) in \(madlib6) place \(madlib7) sadly, the romance ended after \(madlib7) small number \(madlib8) months, when \(madlib9) same male celeb \(madlib9) past tense verb \(madlib9).")
+print("Female celeb \(madlib5) 's first husband \(madlib4) adjective \(madlib3) that is \(madlib3) male celeb \(madlib2) was spotted \(madlib1) canoodling with \(madlib1) female celeb \(madlib0) who he met filming \(madlib0) name of movie \(madlib6) in \(madlib6) place \(madlib7) sadly, the romance ended after \(madlib7) small number \(madlib8) months, when \(madlib9) same male celeb \(madlib9) past tense verb \(madlib9).")
 
 
 
