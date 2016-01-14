@@ -10,7 +10,7 @@
 import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
-var startGame = "Yes"
+var startGame = "Yes" // start of if/else statement
 if startGame != "Yes"{
 
 func input() -> String {
@@ -26,7 +26,7 @@ func input() -> String {
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
     
 }
-
+// 1st Madlib
 
 
 print("My company")
@@ -104,7 +104,7 @@ func input1() -> String {
 
 
 
-
+// 2nd Madlib
 
 
 
@@ -180,7 +180,7 @@ var madlib9 = input ()
 //print
 
 
-
+// 3rd Madlib
 
 
 print("Female celeb")
