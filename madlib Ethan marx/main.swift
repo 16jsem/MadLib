@@ -19,28 +19,6 @@ print("Hello, World!")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Ethan M.
 
 
