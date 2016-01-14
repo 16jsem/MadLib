@@ -10,10 +10,9 @@
 import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
-// Start of if/else statement
-var startGame = "Yes"
-if startGame != "Yes"{
-
+var startGame = true
+if startGame != true{
+    
 func input() -> String {
     
     var keyboard = NSFileHandle.fileHandleWithStandardInput()
@@ -29,7 +28,7 @@ func input() -> String {
 }
 // 1st Madlib
 
-
+    func myCompany(){
 print("My company")
 
 print("Name of company")
@@ -59,12 +58,8 @@ print("Secret suace")
 var E = input()
 
 
-
-
-
-
-
-
+print("My company \(A) name of company \(A) Is developing \(B) A defined offering \(B) to help \(C) A defined audience \(C) solve a problem \(D) with \(E) Secret suace \(E).")
+}
 
 
 
@@ -109,7 +104,8 @@ func input1() -> String {
 
 
 
-
+    func femaleCeleb(){
+    
 print("Female celeb")
 
 var madlib5 = input()
@@ -170,82 +166,8 @@ var madlib9 = input ()
 
 
 
-
-
-
-
-
-
-
-
-//print
-
-
-// 3rd Madlib
-
-
-print("Female celeb")
-
-var madlib5 = input()
-
-print("'s first husband, the")
-
-print("adjective")
-
-var madlib4 = input()
-
-print("that is")
-
-print("male celeb")
-
-var madlib3 = input()
-
-print("was spotted")
-
-var madlib2 = input()
-
-print("adverb")
-
-print("canoodling with")
-
-var madlib1 = input()
-
-print("female celeb")
-
-print("who he met filming")
-
-var madlib0 = input ()
-
-print("name of movie")
-
-print("in")
-
-var madlib6 = input()
-
-print("place")
-
-print("sadly, the romance ended after")
-
-var madlib7 = input()
-
-print("small number")
-
-print("months, when")
-
-var madlib8 = input()
-
-print("same male celeb")
-
-print("past tense verd")
-
-var madlib9 = input ()
-
-
-
-
-
-
-
+    print("Female celeb \(madlib5) 's first husband \(madlib4) adjective \(madlib3) that is \(madlib3) male celeb \(madlib2) was spotted \(madlib1) canoodling with \(madlib1) female celeb \(madlib0) who he met filming \(madlib0) name of movie \(madlib6) in \(madlib6) place \(madlib7) sadly, the romance ended after \(madlib7) small number \(madlib8) months, when \(madlib9) same male celeb \(madlib9) past tense verb \(madlib9).")
+    }
 
 
 
@@ -312,10 +234,9 @@ func olympics() {
 // Exit
     func exit(){
         print("Thanks for Playing!")
-        startGame = "End"
+        startGame = false
     }
-    
-} else { // middle of if/else statement
+} else if startGame == true{ // middle of if/else statement
 
 
 
@@ -324,8 +245,8 @@ func olympics() {
 func menuOptions(){
 print("Menu")
 print("Please type Command or Madlib Name")
-print("Madlib1")
-print("Madlib2")
+print("myCompany")
+print("femaleCeleb")
 print("Olympics")
 print("exit")
 }
