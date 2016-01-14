@@ -258,17 +258,56 @@ var madlib9 = input ()
 
 
 
-func Madlib5(){
-print("Plural Noun")
-var pluralNoun = input()
-print("Adjetive")
-var adjetive = input()
-print("Plural Noun")
-var pluralNoun1 = ("Plural NOun")
-print("Noun")
-var noun = input()
+
+
+
+
+
+
+
+
+
+
+
+func olympics() {
+    print("Noun")
+    var n1 = input()
+    print("Plural Noun")
+    var pN1 = input()
+    print("Adjective")
+    var a1 = input()
+    print("Plural Noun")
+    var pN2 = input()
+    print("Plural Noun")
+    var pN3 = input()
+    print("Number")
+    var n = input()
+    print("Adjective")
+    var a2 = input()
+    print("Adjective")
+    var a3 = input()
+    print("Noun")
+    var n2 = input()
+    print("Adjective")
+    var a4 = input()
+    print("Verb Ending in “s”")
+    var v = input()
+    print("Part of the Body")
+    var pB = input()
+    print("Noun")
+    var n3 = input()
+    print("Adjective")
+    var a5 = input()
+    print("Plural Noun")
+    var pN4 = input()
+    print("Plural Noun")
+    var pN5 = input()
     
+    print(“Every four years, countries from all over the \(n1) send their best \(pN1) to compete in \(a1) games and win \(pN2). These events are called the Olympic \(pN3), and they started \(n) years ago in \(a2)  Greece. When a winner receives his or her \(a3) medal at the games, the national \(n2) of his or her country is played be a/an \(a4) band. As the band \(v), the citizens of that country put their \(pB) to their chest and join in the singing of their national \(n3). Thanks to television, these \(a5) events can now be watched by over a billion \(pN4) throughout the world every four \(pN5).”)
 }
+
+
+
 
 
 
