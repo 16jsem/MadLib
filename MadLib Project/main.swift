@@ -10,7 +10,8 @@
 import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
-var startGame = "Yes" // start of if/else statement
+// Start of if/else statement
+var startGame = "Yes"
 if startGame != "Yes"{
 
 func input() -> String {
