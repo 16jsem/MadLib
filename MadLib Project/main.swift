@@ -11,6 +11,7 @@ import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
 var startGame = true
+// If/Else statement allows it the program to skip all of the Madlib functions and go straight to the menu
 if startGame != true{
     
 func input() -> String {
@@ -26,9 +27,11 @@ func input() -> String {
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
     
 }
-// 1st Madlib
+// 1st Madlib - Ethan
 
     func myCompany(){
+        var pA = "Y"
+        while pA == "Y" {
 print("My company")
 
 print("Name of company")
@@ -59,6 +62,10 @@ var E = input()
 
 
 print("My company \(A) name of company \(A) Is developing \(B) A defined offering \(B) to help \(C) A defined audience \(C) solve a problem \(D) with \(E) Secret suace \(E).")
+            
+            print("Do you want to play again Y or N?")
+            pA = input()
+}
 }
 
 
@@ -100,11 +107,13 @@ func input1() -> String {
 
 
 
-// 2nd Madlib
+// 2nd Madlib - Ethan
 
 
 
     func femaleCeleb(){
+        var pA = "Y"
+        while pA == "Y" {
     
 print("Female celeb")
 
@@ -167,7 +176,10 @@ var madlib9 = input ()
 
 
     print("Female celeb \(madlib5) 's first husband \(madlib4) adjective \(madlib3) that is \(madlib3) male celeb \(madlib2) was spotted \(madlib1) canoodling with \(madlib1) female celeb \(madlib0) who he met filming \(madlib0) name of movie \(madlib6) in \(madlib6) place \(madlib7) sadly, the romance ended after \(madlib7) small number \(madlib8) months, when \(madlib9) same male celeb \(madlib9) past tense verb \(madlib9).")
+            print("Do you want to play again Y or N?")
+            pA = input()
     }
+}
 
 
 
@@ -187,8 +199,8 @@ var madlib9 = input ()
 
 
 
+// 5th Madlib - Julianne
 
-// 5th Madlib
 func olympics() {
     var pA = "y"
     repeat{
@@ -226,7 +238,7 @@ func olympics() {
     var pN5 = input()
     
     print("Every four years, countries from all over the \(n1) send their best \(pN1) to compete in \(a1) games and win \(pN2). These events are called the Olympic \(pN3), and they started \(n) years ago in \(a2)  Greece. When a winner receives his or her \(a3) medal at the games, the national \(n2) of his or her country is played be a/an \(a4) band. As the band \(v), the citizens of that country put their \(pB) to their chest and join in the singing of their national \(n3). Thanks to television, these \(a5) events can now be watched by over a billion \(pN4) throughout the world every four \(pN5).")
-        print(" Do you want to play again Y or N?")
+        print("Do you want to play again Y or N?")
     pA = input()
     } while pA == "y"
 }
