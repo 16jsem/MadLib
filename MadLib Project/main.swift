@@ -266,7 +266,6 @@ var madlib9 = input ()
 
 
 // 5th Madlib
-
 func olympics() {
     var pA = "y"
     repeat{
@@ -309,7 +308,7 @@ func olympics() {
     } while pA == "y"
 }
 
-    
+// Exit
     func exit(){
         print("Thanks for Playing!")
         startGame = "End"
@@ -319,16 +318,14 @@ func olympics() {
 
 
 
-
 // Menu
-
-
 
 func menuOptions(){
 print("Menu")
 print("Please type Command or Madlib Name")
 print("Madlib1")
 print("Madlib2")
+print("Olympics")
 print("exit")
 }
 input()()
