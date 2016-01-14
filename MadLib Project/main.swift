@@ -10,11 +10,9 @@
 import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
-var playAgain = 1
-func exit(){
-    print("Thanks for Playing!")
-    playAgain = 2
-}
+var startGame = "Yes"
+if startGame != "Yes"{
+
 func input() -> String {
     
     var keyboard = NSFileHandle.fileHandleWithStandardInput()
@@ -267,9 +265,11 @@ var madlib9 = input ()
 
 
 
-
+// 5th Madlib
 
 func olympics() {
+    var pA = "y"
+    repeat{
     print("Noun")
     var n1 = input()
     print("Plural Noun")
@@ -304,14 +304,23 @@ func olympics() {
     var pN5 = input()
     
     print("Every four years, countries from all over the \(n1) send their best \(pN1) to compete in \(a1) games and win \(pN2). These events are called the Olympic \(pN3), and they started \(n) years ago in \(a2)  Greece. When a winner receives his or her \(a3) medal at the games, the national \(n2) of his or her country is played be a/an \(a4) band. As the band \(v), the citizens of that country put their \(pB) to their chest and join in the singing of their national \(n3). Thanks to television, these \(a5) events can now be watched by over a billion \(pN4) throughout the world every four \(pN5).")
+        print(" Do you want to play again Y or N?")
+    pA = input()
+    } while pA == "y"
 }
 
+    
+    func exit(){
+        print("Thanks for Playing!")
+        startGame = "End"
+    }
+    
+} else { // middle of if/else statement
 
 
 
 
-
-
+// Menu
 
 
 
@@ -324,9 +333,7 @@ print("exit")
 }
 input()()
 
-
-
-
+} //end of if/else statement
 
 
 
