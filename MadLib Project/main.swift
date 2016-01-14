@@ -303,7 +303,7 @@ func olympics() {
     print("Plural Noun")
     var pN5 = input()
     
-    print(“Every four years, countries from all over the \(n1) send their best \(pN1) to compete in \(a1) games and win \(pN2). These events are called the Olympic \(pN3), and they started \(n) years ago in \(a2)  Greece. When a winner receives his or her \(a3) medal at the games, the national \(n2) of his or her country is played be a/an \(a4) band. As the band \(v), the citizens of that country put their \(pB) to their chest and join in the singing of their national \(n3). Thanks to television, these \(a5) events can now be watched by over a billion \(pN4) throughout the world every four \(pN5).”)
+    print("Every four years, countries from all over the \(n1) send their best \(pN1) to compete in \(a1) games and win \(pN2). These events are called the Olympic \(pN3), and they started \(n) years ago in \(a2)  Greece. When a winner receives his or her \(a3) medal at the games, the national \(n2) of his or her country is played be a/an \(a4) band. As the band \(v), the citizens of that country put their \(pB) to their chest and join in the singing of their national \(n3). Thanks to television, these \(a5) events can now be watched by over a billion \(pN4) throughout the world every four \(pN5).")
 }
 
 
