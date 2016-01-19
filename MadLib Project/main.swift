@@ -10,9 +10,9 @@
 import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
-var startGame = true
+var startGame =  true
 // If/Else statement allows it the program to skip all of the Madlib functions and go straight to the menu
-if startGame != true{
+if startGame == false{
     
 func input() -> String {
     
