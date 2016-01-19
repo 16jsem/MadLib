@@ -13,7 +13,6 @@ print("Hello, World!")
 var startGame =  true
 // If/Else statement allows it the program to skip all of the Madlib functions and go straight to the menu
 if startGame == false{
-    
 func input() -> String {
     
     var keyboard = NSFileHandle.fileHandleWithStandardInput()
@@ -67,16 +66,6 @@ print("My company \(A) name of company \(A) Is developing \(B) A defined offerin
             pA = input()
 }
 }
-
-
-
-// print
-
-
-
-
-
-
 
 
 
@@ -181,15 +170,101 @@ var madlib9 = input ()
     }
 }
 
-
-
-
-
-
-//print
-
-
-
+    // madlib #3 Dante's Madlib
+    
+    func color() {
+var pA = "Y"
+while pA == "y"{
+    
+    
+    print("color")
+    
+    var one = input()
+    
+    print("body part")
+    
+    print("name body part")
+    
+    var two = input()
+    
+    print("nouns")
+    
+    var three = input()
+    
+    print("verb")
+    
+    var four = input()
+    
+    print("adjective")
+    
+    var five = input()
+    
+    print("adjective")
+    
+    var six = input()
+    
+    print("verb")
+    
+    var seven = input()
+    
+    print("noun")
+    
+    var eight = input()
+    
+    print("noun")
+    
+    var nine = input()
+    
+    
+    
+    print("Today i saw him again.When he looks at me with those \(one)eyes,it makes my \(two)go pitterpat,and i feel as if i have\(three)in my stomach.When he scrunches his nose,i want to \(four)him softly.He is so \(five) and \(six)Tomorrow he will be mine.For now he \(seven) in the store \(eight) looking at me.\(nine)love is hard to resist!")
+    print("Do you want to play again Y or N?")
+    pA = input()
+    }
+    }
+    
+    // Dante's first madlib
+    
+    func slip() {
+        var pA = "Y"
+        while pA == "Y"{
+    
+    print("proper noun")
+    
+    let slip1 = input()
+    
+    print("verb + ing")
+    
+    let slip2 = input()
+    
+    print("noun")
+    
+    let slip3 = input()
+    
+    print("pronouns")
+    
+    let slip4 = input()
+    
+    print("nouns")
+    
+    let slip5 = input()
+    
+    print("pronoun")
+    
+    let slip6 = input()
+    
+    print("verbs")
+    
+    let slip7 = input()
+    
+    
+    
+    print("One day\(slip1) was \(slip2) to the \(slip3). On the way. \(slip4) saw a \(slip5). This was a surprise so \(slip6) \(slip7) quickly.")
+        
+        print("Do you want to play again Y or N?")
+        pA = input()
+    }
+    }
 
 
 
@@ -259,12 +334,17 @@ print("Menu")
 print("Please type Command or Madlib Name")
 print("myCompany")
 print("femaleCeleb")
+print("color")
+print("slip")
 print("Olympics")
 print("exit")
 }
 input()()
 
 } //end of if/else statement
+
+
+
 
 
 
